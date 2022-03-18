@@ -23,8 +23,6 @@ public class Maze {
     private Point startingPoint;
     private Stack<Point> stack;
 
-    //region Methods
-
     /**
      * Constructor that converts the input file into a character-array.
      * Input file must be in src/maze_files/
@@ -220,6 +218,5 @@ public class Maze {
         }
         return stackCopy;
     }
-    //endregion
 }
 
